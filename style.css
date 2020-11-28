@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    padding: 30px 0 30px 0;
+}
+
+#headline {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #0B5394;
+    padding: 70px 0 70px 0;
+}
+
+#welcome {
+    background-color: #fcfcfc;
+    text-align: center;
+    padding: 70px 0 70px 0;
+}
+
+#about {
+    padding: 70px 0 70px 0;
+}
+
+#about .icon {
+    display: inline;
+    float: left;
+    margin: 20px;
+}
+
+#about h2 {
+    margin-top: 20px;
+}
+
+#team {
+    text-align: center;
+    padding: 70px 0 70px 0;
+}
+
+#team h1 {
+    margin-bottom: 50px;
+}
+
+#team .member {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.member img {
+    height: 200px;
+    border-radius: 100px;
+    border: solid 4px #efefef;
+    margin-bottom: 10px;
+}
+
+.member img:hover {
+    border: solid 10px #dfdfdf;
+    transition: 0.8s;
+}
+
+.member .name {
+    font-weight: bold;
+}
+
+.member .title {
+    color: gray;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text {
+    color: gray;
+}
+
+#footer {
+    border-top: solid 1px #efefef;
+    font-size: 13px;
+    padding: 20px 0 20px 0;
+    color: #bebebe;
+}

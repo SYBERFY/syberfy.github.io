@@ -1,0 +1,80 @@
+---
+---
+
+// Variables 
+$syberfy-blue: #0B5394
+$text-color: gray
+$border-color: #efefef
+$border-color-hover: #dfdfdf
+
+// Common
+body
+    font-family: Arial, Helvetica, sans-serif
+
+h1
+    font-size: 30px
+    font-weight: bold
+
+.text
+    color: $text-color
+
+// Homepage
+
+.section
+    padding: 70px 0
+
+#header
+    padding: 30px 0
+
+#headline
+    background-color: $syberfy-blue
+    color: white
+    font-size: 90px
+    text-align: center
+    font-weight: bold
+
+#welcome
+    background-color: #fcfcfc
+    text-align: center
+
+#about
+
+    .icon
+        display: inline
+        float: left
+        margin: 20px
+
+    h2
+        margin-top: 20px
+
+#team
+    text-align: center
+
+    h1
+        margin-bottom: 50px
+
+    .member
+        margin-top: 20px
+        text-align: center
+
+        .name
+            font-weight: bold
+
+        .title
+            color: $text-color
+
+        img
+            height: 200px
+            border-radius: 100px
+            border: solid 4px $border-color
+            margin-bottom: 10px
+
+            &:hover
+                border: solid 10px $border-color-hover
+                transition: 0.8s
+
+#footer
+    border-top: solid 1px $border-color
+    font-size: 13px
+    padding: 20px 0 20px 0
+    color: #bebebe

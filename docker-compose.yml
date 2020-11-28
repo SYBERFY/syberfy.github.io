@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  jekyll:
+    image: docker.syberfy.com/site-dev
+    build:
+      context: .
+    volumes:
+      - ./:/code
+    command: jekyll serve --livereload --host 0.0.0.0
+    ports:
+      - 4000:4000
+  
